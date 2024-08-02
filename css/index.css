@@ -56,9 +56,9 @@ header.main-header {
   font-weight: 600;
   opacity: 0.9;
 }
-.navbar .navbar-brand span i {
+.navbar .navbar-brand span .fa {
   font-size: 30px;
-  color: var(--primary-color);
+  color: #00a63f !important;
   margin-right: 5px;
   vertical-align: bottom;
 }
@@ -76,7 +76,7 @@ header.main-header {
   height: 45px;
   border-radius: 100%;
   box-sizing: border-box;
-  background: var(--primary-color);
+  background: #00a63f;
   outline: 0;
   transform-origin: 50%;
   transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
