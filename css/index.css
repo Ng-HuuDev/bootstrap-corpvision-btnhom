@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-.title-small {
+.title__small {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -16,7 +16,7 @@ a {
   display: block;
 }
 
-.title-big {
+.title__big {
   font-size: 35px;
   line-height: 45px;
   font-weight: 700;
@@ -626,4 +626,24 @@ header.main-header {
   margin-top: 25px;
   display: block;
   color: var(--heading-color);
+}
+
+/* SERVICES */
+#services img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#services .blog__item a {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 600;
+  background: white;
+  color: black;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: inline-block;
+  transform: translateY(-25px);
+  padding: 12px 35px;
+  box-shadow: rgba(2, 2, 2, 0.151) 1px 1px 5px 0px;
 }
