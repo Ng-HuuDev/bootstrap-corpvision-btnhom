@@ -707,3 +707,12 @@ header.main-header {
   transform: scale(1.1);
   transition: 0.7s ease-in-out;
 }
+
+/*  BRANDS */
+.brand {
+  border-top: 2px solid #eee;
+}
+.brand img {
+  width: 100%;
+  padding: 0 18px;
+}
